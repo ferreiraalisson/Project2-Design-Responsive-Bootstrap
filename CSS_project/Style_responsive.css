@@ -1,0 +1,28 @@
+@charset "UFT-8";
+
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+
+    .pesquisar{
+      padding-bottom: 15px;
+    }
+  
+    .pesquisar input{
+      width:60%; height: 30px;
+    }
+
+    p{
+      text-align: justify;
+      margin-top: 20px;
+      text-indent: 4ch;
+    }
+  
+    .modal-content {
+      width: 100%;
+    }
+  
+    .galery{
+      padding-left:20px;
+    }
+    
+  }
